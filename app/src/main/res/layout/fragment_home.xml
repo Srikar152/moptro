@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/moptro_page"
+    android:paddingStart="1dp"
+    android:fitsSystemWindows="true"
+    android:foregroundGravity="center"
+    android:textAlignment="center"
+    app:layout_wrapBehaviorInParent="horizontal_only"
+    android:pointerIcon="help"
+    tools:context=".homeFragment">
+
+    <!-- Title -->
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="61dp"
+        android:layout_height="73dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="2dp"
+        android:backgroundTint="#459D48"
+
+        android:clickable="true"
+        android:src="@drawable/baseline_contact_phone_24" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginTop="-70dp"
+        android:background="@drawable/input_bg"
+        android:padding="20dp"
+        android:text="Employee Productivity Dashboard"
+        android:textColor="#459D48"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Container for Progress Bars -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+    <!-- Progress Bar 1 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:max="100"
+        android:orientation="vertical"
+        android:progress="10"
+        android:progressTint="#80DEEA" />
+
+
+    <!-- Add similar layouts for Progress Bar 2 to Progress Bar 7 -->
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="94dp"
+        android:layout_height="31dp"
+        android:layout_gravity="center|center_horizontal|left"
+        android:layout_marginTop="47dp"
+        android:contentDescription="Tuesday"
+        android:gravity="left"
+        android:hint="Tuesday"
+        android:lineSpacingExtra="10sp"
+        android:paddingBottom="10dp"
+        android:text="Tuesday"
+        android:textAlignment="viewStart"
+        android:textAllCaps="true"
+        android:textColor="#459D48"
+        android:textSize="20sp"
+        android:typeface="sans" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right|center_horizontal"
+        android:layout_marginStart="500dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginRight="20dp"
+        android:maxWidth="40dip"
+        android:progress="10"
+        android:progressTint="#F7F1EBEB"
+        android:progressTintMode="add"
+        android:requiresFadingEdge="horizontal"
+        android:visibility="visible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal|right"
+        android:layout_marginStart="-50dp"
+        android:layout_marginLeft="-15dp"
+        android:layout_marginRight="1dp"
+        android:contentDescription="Monday"
+        android:gravity="right"
+        android:hint="Tuesday"
+        android:lineSpacingExtra="10sp"
+        android:text="4%"
+        android:textAlignment="viewEnd"
+        android:textAllCaps="true"
+        android:textColor="#459D48"
+        android:textSize="20sp"
+        android:typeface="sans" />
+
+    <TextView
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal|left"
+        android:layout_marginEnd="60dp"
+        android:contentDescription="Monday"
+        android:gravity="left"
+        android:lineSpacingExtra="10sp"
+        android:text="Monday"
+        android:textAlignment="viewStart"
+        android:textAllCaps="true"
+        android:textColor="#459D48"
+        android:textSize="20sp"
+        android:typeface="sans" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right|center_horizontal"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="69dp"
+        android:progress="70"
+        android:progressTint="#F7F1EBEB"
+        android:progressTintMode="add"
+        android:requiresFadingEdge="horizontal"
+        android:visibility="visible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal|right"
+        android:layout_marginTop="45dp"
+        android:contentDescription="Monday"
+        android:gravity="right"
+        android:hint="Monday"
+        android:lineSpacingExtra="10sp"
+        android:text="92%"
+        android:textAlignment="viewEnd"
+        android:textAllCaps="true"
+        android:textColor="#459D48"
+        android:textSize="20sp"
+        android:typeface="sans" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal|left"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginRight="10dp"
+        android:contentDescription="Tuesday"
+        android:fitsSystemWindows="true"
+        android:hint="Tuesday"
+        android:lineSpacingExtra="10sp"
+        android:paddingBottom="10dp"
+
+        android:text="Wednesday"
+        android:textAllCaps="true"
+        android:textColor="#459D48"
+        android:textSize="20sp"
+        android:typeface="sans" />
+
+    <ProgressBar
+        android:id="@+id/progressBar3"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right|center_horizontal"
+        android:layout_marginStart="500dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginRight="10dp"
+        android:maxWidth="40dip"
+        android:progress="90"
+        android:progressTint="#F7F1EBEB"
+        android:progressTintMode="add"
+        android:requiresFadingEdge="horizontal"
+        android:visibility="visible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal|right"
+        android:layout_marginTop="87dp"
+        android:contentDescription="Monday"
+        android:gravity="right"
+        android:hint="Monday"
+        android:lineSpacingExtra="10sp"
+        android:text="122%"
+        android:textAlignment="viewEnd"
+        android:textAllCaps="true"
+        android:textColor="#459D48"
+        android:textSize="20sp"
+        android:typeface="sans" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_gravity="center|center_horizontal|left"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="135dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginRight="10dp"
+        android:contentDescription="Tuesday"
+        android:gravity="left"
+        android:hint="Tuesday"
+        android:lineSpacingExtra="10sp"
+        android:paddingBottom="10dp"
+        android:text="Thursday"
+        android:textAlignment="viewStart"
+        android:textAllCaps="true"
+        android:textColor="#459D48"
+        android:textSize="20sp"
+        android:typeface="sans" />
+
+    <ProgressBar
+        android:id="@+id/progressBar4"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right|center_horizontal"
+        android:layout_marginStart="500dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="135dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginRight="10dp"
+        android:maxWidth="40dip"
+        android:progress="72"
+        android:progressTint="#F7F1EBEB"
+        android:progressTintMode="add"
+        android:requiresFadingEdge="horizontal"
+        android:visibility="visible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal|right"
+        android:layout_marginTop="130dp"
+        android:contentDescription="Monday"
+        android:gravity="right"
+        android:hint="Monday"
+        android:lineSpacingExtra="10sp"
+        android:text="93%"
+        android:textAlignment="viewEnd"
+        android:textAllCaps="true"
+        android:textColor="#459D48"
+        android:textSize="20sp"
+        android:typeface="sans" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_gravity="center|center_horizontal|left"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="175dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginRight="10dp"
+        android:contentDescription="Tuesday"
+        android:gravity="left"
+        android:hint="Tuesday"
+        android:lineSpacingExtra="10sp"
+        android:paddingBottom="10dp"
+        android:text="Friday"
+        android:textAlignment="viewStart"
+        android:textAllCaps="true"
+        android:textColor="#459D48"
+        android:textSize="20sp"
+        android:typeface="sans" />
+
+    <ProgressBar
+        android:id="@+id/progressBar5"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right|center_horizontal"
+        android:layout_marginStart="500dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="175dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginRight="10dp"
+        android:maxWidth="40dip"
+        android:progress="65"
+        android:progressTint="#F7F1EBEB"
+        android:progressTintMode="add"
+        android:requiresFadingEdge="horizontal"
+        android:visibility="visible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal|right"
+        android:layout_marginTop="170dp"
+        android:contentDescription="Monday"
+        android:gravity="right"
+        android:hint="Monday"
+        android:lineSpacingExtra="10sp"
+        android:text="89%"
+        android:textAlignment="viewEnd"
+        android:textAllCaps="true"
+        android:textColor="#459D48"
+        android:textSize="20sp"
+        android:typeface="sans" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_gravity="center|left"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="215dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginRight="10dp"
+        android:contentDescription="Tuesday"
+        android:gravity="left"
+        android:hint="Tuesday"
+        android:lineSpacingExtra="10sp"
+        android:paddingBottom="10dp"
+        android:text="Saturday"
+        android:textAlignment="viewStart"
+        android:textAllCaps="true"
+        android:textColor="#459D48"
+        android:textSize="20sp"
+        android:typeface="sans" />
+
+    <ProgressBar
+        android:id="@+id/progressBar6"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right"
+        android:layout_marginStart="500dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="215dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginRight="10dp"
+        android:maxWidth="40dip"
+        android:progress="75"
+        android:progressTint="#F7F1EBEB"
+        android:progressTintMode="add"
+        android:requiresFadingEdge="horizontal"
+        android:visibility="visible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right"
+        android:layout_marginTop="215dp"
+        android:contentDescription="Monday"
+        android:gravity="right"
+        android:hint="Monday"
+        android:lineSpacingExtra="10sp"
+        android:text="98%"
+        android:textAlignment="viewEnd"
+        android:textAllCaps="true"
+        android:textColor="#459D48"
+        android:textSize="20sp"
+        android:typeface="sans" />
+
+
+</FrameLayout>

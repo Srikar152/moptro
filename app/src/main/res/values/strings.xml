@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Moptro</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="id1">Emp_id:1</string>
+    <string name="id2">Emp_id:2</string>
+    <string name="id3">Emp_id:3</string>
+    <string name="id4">Emp_id:4</string>
+    <string name="id5">Emp_id:5</string>
+
+    <string name="name1">Name:Arjun</string>
+    <string name="name2">Name:Mahesh</string>
+    <string name="name3">Name:Nithish</string>
+    <string name="name4">Name:Guru</string>
+    <string name="name5">Name:Mohit</string>
+
+    <string name="dob1">DOB:16-11-2000</string>
+    <string name="dob2">DOB:15-10-2000</string>
+    <string name="dob3">DOB:20-07-2000</string>
+    <string name="dob4">DOB:20-12-2001</string>
+    <string name="dob5">DOB:05-01-2001</string>
+
+    <string name="role1">Role:Software Developer</string>
+    <string name="role2">Role:Web developer</string>
+    <string name="role3">Role:Software Developer</string>
+    <string name="role4">Role:Android Developer</string>
+    <string name="role5">Role:manager</string>
+
+</resources>
