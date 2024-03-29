@@ -69,7 +69,6 @@
         android:layout_gravity="center|center_horizontal|left"
         android:layout_marginTop="47dp"
         android:contentDescription="Tuesday"
-        android:gravity="left"
         android:hint="Tuesday"
         android:lineSpacingExtra="10sp"
         android:paddingBottom="10dp"
@@ -78,7 +77,8 @@
         android:textAllCaps="true"
         android:textColor="#459D48"
         android:textSize="20sp"
-        android:typeface="sans" />
+        android:typeface="sans"
+        tools:ignore="RtlCompat" />
 
     <ProgressBar
         android:id="@+id/progressBar1"
@@ -105,7 +105,6 @@
         android:layout_marginLeft="-15dp"
         android:layout_marginRight="1dp"
         android:contentDescription="Monday"
-        android:gravity="right"
         android:hint="Tuesday"
         android:lineSpacingExtra="10sp"
         android:text="4%"
@@ -113,7 +112,8 @@
         android:textAllCaps="true"
         android:textColor="#459D48"
         android:textSize="20sp"
-        android:typeface="sans" />
+        android:typeface="sans"
+        tools:ignore="RtlCompat" />
 
     <TextView
         android:layout_width="94dp"
@@ -128,7 +128,8 @@
         android:textAllCaps="true"
         android:textColor="#459D48"
         android:textSize="20sp"
-        android:typeface="sans" />
+        android:typeface="sans"
+        tools:ignore="RtlCompat" />
 
     <ProgressBar
         android:id="@+id/progressBar2"
@@ -158,7 +159,8 @@
         android:textAllCaps="true"
         android:textColor="#459D48"
         android:textSize="20sp"
-        android:typeface="sans" />
+        android:typeface="sans"
+        tools:ignore="RtlCompat" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -212,7 +214,8 @@
         android:textAllCaps="true"
         android:textColor="#459D48"
         android:textSize="20sp"
-        android:typeface="sans" />
+        android:typeface="sans"
+        tools:ignore="RtlCompat" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -232,7 +235,8 @@
         android:textAllCaps="true"
         android:textColor="#459D48"
         android:textSize="20sp"
-        android:typeface="sans" />
+        android:typeface="sans"
+        tools:ignore="RtlCompat" />
 
     <ProgressBar
         android:id="@+id/progressBar4"
@@ -266,7 +270,8 @@
         android:textAllCaps="true"
         android:textColor="#459D48"
         android:textSize="20sp"
-        android:typeface="sans" />
+        android:typeface="sans"
+        tools:ignore="RtlCompat" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -286,7 +291,8 @@
         android:textAllCaps="true"
         android:textColor="#459D48"
         android:textSize="20sp"
-        android:typeface="sans" />
+        android:typeface="sans"
+        tools:ignore="RtlCompat" />
 
     <ProgressBar
         android:id="@+id/progressBar5"
@@ -320,7 +326,8 @@
         android:textAllCaps="true"
         android:textColor="#459D48"
         android:textSize="20sp"
-        android:typeface="sans" />
+        android:typeface="sans"
+        tools:ignore="RtlCompat" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -340,7 +347,8 @@
         android:textAllCaps="true"
         android:textColor="#459D48"
         android:textSize="20sp"
-        android:typeface="sans" />
+        android:typeface="sans"
+        tools:ignore="RtlCompat" />
 
     <ProgressBar
         android:id="@+id/progressBar6"
@@ -374,7 +382,8 @@
         android:textAllCaps="true"
         android:textColor="#459D48"
         android:textSize="20sp"
-        android:typeface="sans" />
+        android:typeface="sans"
+        tools:ignore="RtlCompat" />
 
 
 </FrameLayout>
